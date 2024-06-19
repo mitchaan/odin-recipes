@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(#98cf91,#e0e38f,#98cf91);
+    
+
+}
+
+.paragrafo {
+    color: rgb(87, 87, 242);
+}
+
+
+    h3 {
+        color: rgb(20, 5, 75);
+        font-size: 30px;
+        font-weight: 900;
+        text-shadow: 5px 3px 13px rgb(132, 132, 249);
+    }
