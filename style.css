@@ -1,19 +1,22 @@
 
 body {
-    background-image: linear-gradient(#9ccb95,#e3e5ac,rgb(244, 247, 220),#f2f2ad,#9ccb95);
     text-align: center;
     border-style:solid;
-    border-width: 7px;
-    border-image-source:linear-gradient(45deg,#d6de04,#0f018f,#046b15);
+    border-width: 5px;
+    border-image-source:linear-gradient(45deg,#dee43b,#4e3ee4,#54ea6d);
     border-image-slice: 1;
-    font-family: "Syne Mono", monospace;
+    font-family: "BioRhyme", serif;
+    background-image: linear-gradient(rgb(244, 249, 244),rgba(224, 224, 192, 0.688), rgb(247, 250, 247));
 
+    
+    
 }
 
 
 h1{
     color:hsla(240, 91%, 55%, 0.292);
     text-indent: 20px;
+    padding-bottom: -70px;
 }
 
 .paragrafo {
@@ -22,12 +25,22 @@ h1{
 }
 
     h3 {
-        color: rgb(20, 5, 75);
+        color: rgb(251, 251, 252);
         font-size: 50px;
-        font-weight: 500px;
-        text-shadow: 5px 3px 7px rgb(118, 118, 230) ;
+        font-weight: 6px;
+      
         text-indent: 40px;
-        letter-spacing: 5px;
+        letter-spacing: 5px;    
+        text-align:inherit;
+       
+    
+        background-color: rgb(144, 145, 145);
+        background-image: url(backgroud/brazil.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 150px;
+        background-blend-mode:multiply;
+    
     }
     #li2, #li3 { line-height:70px;
         position: relative;
@@ -39,6 +52,9 @@ h1{
 
     h1 {
         line-height: 80px;
+        text-align: right;
+        padding-right: 50px;
+        
     }
     h4{
         text-align: right;
