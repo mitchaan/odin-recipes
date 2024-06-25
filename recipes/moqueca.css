@@ -1,3 +1,16 @@
-* {
-    font-family: "Montserrat", sans-serif;
+body {
+    font-family: "Syne Mono", monospace, 'Times New Roman', Times, serif;
+
+    
+    border-inline-start: 10px solid;
+    border-block-start: 10px solid;
+    border-image-source: radial-gradient(circle at top left, rgb(236, 246, 130), transparent 50% );
+    border-image-slice: 1;
+    padding: 25px;
+    border-width: 8px
+    ;
+}
+
+h1 {
+    text-shadow: 3px 3px 5px rgb(237, 236, 156);
 }

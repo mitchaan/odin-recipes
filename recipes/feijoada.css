@@ -1,17 +1,16 @@
 body {
-    font-family: "Syne Mono", monospace;
-    background-image:linear-gradient(rgb(197, 197, 246), rgb(245, 245, 185), rgb(236, 242, 207), rgb(245, 245, 183), rgb(197, 197, 246));
+    font-family: "Syne Mono", monospace, 'Times New Roman', Times, serif;
 
     
     border-inline-start: 10px solid;
     border-block-start: 10px solid;
-    border-image-source: radial-gradient(circle at top left, green, transparent 50% );
+    border-image-source: radial-gradient(circle at top left, rgb(54, 69, 241), transparent 50% );
     border-image-slice: 1;
     padding: 25px;
-    border-width: 5px
+    border-width: 8px
     ;
 }
 
 h1 {
-    text-shadow: 3px 3px 5px rgb(82, 141, 89);
+    text-shadow: 3px 3px 5px rgb(105, 120, 233);
 }
